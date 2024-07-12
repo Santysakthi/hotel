@@ -1,0 +1,116 @@
+header {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(231, 65, 65);
+    font-size: 25px;
+}
+
+header h3,
+p {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    background-color: darkslategrey;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+
+li a {
+    padding: 20px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+li a:hover {
+    background-color: rgb(134, 20, 109);
+}
+
+.fleximage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.fleximage img {
+    width: 100px;
+}
+
+.b-nav {
+    background-image: url(./bgimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.heading {
+    color: rgb(254, 254, 254);
+
+}
+
+.centerflex {
+    display: flex;
+    flex-direction: row;
+   justify-content: space-evenly;
+    height: auto;
+}
+
+.flexone div {
+    margin: 20px;
+}
+
+.flextwo div {
+    margin: 20px;
+}
+
+.priceimg {
+    background-image: url(./price.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
+
+.specialimg {
+    background-image: url(./dishimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
+
+.specialimg a:hover {
+    font-size: 400%;
+    transition: 0.4s;
+    text-shadow: 5px 5px 5px rgb(6, 3, 3);
+}
+
+.priceimg a:hover {
+    font-size: 400%;
+    transition: 0.4s;
+    text-shadow: 5px 5px 5px rgb(6, 3, 3);
+}
+
+.priceimg a,
+.specialimg a {
+    text-decoration: none;
+    color: rgb(210, 221, 99);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    text-shadow: 5px 5px 5px rgb(6, 3, 3);
+}
+
+footer {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(249, 2, 2);
+    font-family: 'Ubuntu Mono', monospace;
+}
